@@ -6,6 +6,11 @@ About
 
 WebSharper Utilities.
 
+NuGet
+-----
+
+	PM> Install-Package ExtSharper
+
 MIT License
 -----------
 
