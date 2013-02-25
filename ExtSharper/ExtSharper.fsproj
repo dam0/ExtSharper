@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Random.fs" />
+    <Compile Include="Skin.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
