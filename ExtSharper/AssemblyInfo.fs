@@ -9,6 +9,6 @@ module AssemblyInfo =
     [<AssemblyFileVersion("0.1.0.0")>]
     [<AssemblyProduct("ExtSharper")>]
     [<AssemblyTitle("ExtSharper")>]
-    [<AssemblyVersion("0.1.6.3")>]
+    [<AssemblyVersion("0.1.8.4")>]
 
     do ()
