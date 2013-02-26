@@ -1,4 +1,4 @@
-﻿namespace ExtSharper
+﻿namespace ExtSharper.Server
 
 open System.Web
 open IntelliFactory.WebSharper.Sitelets
@@ -34,4 +34,5 @@ module Skin =
              .With("body"           , fun x -> x.Body)
 
     let WithTemplate<'T> template title metaDescription makeBody : Content<'T> =
-        Content.WithTemplate template <| fun context -> DefaultPage.Make title metaDescription makeBody context
+        Content.WithTemplate template
+        <| fun context -> DefaultPage.Make title metaDescription makeBody context

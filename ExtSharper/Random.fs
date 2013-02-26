@@ -1,4 +1,4 @@
-﻿namespace ExtSharper
+﻿namespace ExtSharper.Client
 
 open IntelliFactory.WebSharper
 open IntelliFactory.WebSharper.EcmaScript
