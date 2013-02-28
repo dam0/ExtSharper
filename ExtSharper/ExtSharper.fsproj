@@ -31,7 +31,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="JQuery.fs" />
     <Compile Include="Random.fs" />
     <Compile Include="Skin.fs" />
   </ItemGroup>
