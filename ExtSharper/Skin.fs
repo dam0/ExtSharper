@@ -1,4 +1,4 @@
-﻿namespace ExtSharper.Server
+﻿namespace ExtSharper
 
 open System.Web
 open IntelliFactory.WebSharper.Sitelets
@@ -24,7 +24,7 @@ module Skin =
 
     let MakeTemplate<'T> path (loadFrequency : LoadFrequency) =
         let path' = HttpContext.Current.Server.MapPath path
-        Content.Template<'T>(path', loadFrequency)
+        Template<'T>(path', loadFrequency)
     
     let MakeDefaultTemplate path loadFrequency =
         MakeTemplate<DefaultPage> path loadFrequency
@@ -34,5 +34,5 @@ module Skin =
              .With("body"           , fun x -> x.Body)
 
     let WithTemplate<'T> template title metaDescription makeBody : Content<'T> =
-        Content.WithTemplate template
+        WithTemplate template
         <| fun context -> DefaultPage.Make title metaDescription makeBody context

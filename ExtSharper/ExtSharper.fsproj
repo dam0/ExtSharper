@@ -31,8 +31,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Random.fs" />
     <Compile Include="Skin.fs" />
+    <Compile Include="Uri.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
