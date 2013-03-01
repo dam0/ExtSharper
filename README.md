@@ -4,7 +4,7 @@ ExtSharper
 About
 -----
 
-WebSharper Utilities.
+WebSharper server-side utilities.
 
 NuGet
 -----
