@@ -31,6 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Array.fs" />
+    <Compile Include="List.fs" />
+    <Compile Include="Option.fs" />
+    <Compile Include="Seq.fs" />
     <Compile Include="Skin.fs" />
     <Compile Include="Uri.fs" />
   </ItemGroup>
